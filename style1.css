@@ -1,0 +1,831 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+.cont{
+    width: 100%;
+    height: 14vh;
+    background-color: whitesmoke;
+     /* position: relative;  */
+    display: flex;
+    justify-content: space-between;
+    
+}
+.left {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+
+
+.right button{
+    font-size: 17px;
+    
+    border-radius: 7px;
+   width: 120px;
+    border: 1px solid pink;
+    margin-top:20px ;
+    height: 40px;
+    
+    
+}
+#gift{
+    margin-right: 25px;
+    border: 1px solid rgb(85, 75, 104);
+    width: 50px;
+    height: 35px;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 50%;
+    color: red;
+}
+#join{
+    background-color: rgb(169, 169, 175);
+    margin-right: 30px;
+    margin-left: 10px;
+    color: white;
+}
+/* .right1 button{
+    font-size: 30px;
+    margin-right: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+} */
+.cont1{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    /* position: absolute; */
+}
+.img1{
+    width: 50%;
+    height: 80vh;
+    background-color: rgb(230, 196, 255);
+}
+.img1 h1{
+    width: 70%;
+    font-size: 50px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.img1 span{
+    color: greenyellow;
+}
+.img1 div{
+    margin-top: 30px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.img1 input{
+    width: 70%;
+    padding-left: 10px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.img1 input:focus{
+    border: 2px solid red;
+
+}
+p{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+.img1 h4{
+    padding-left: 30px;
+    padding-top: 12px;
+    color: orange;
+   
+}
+.img1 button{
+    width:70% ;
+    height: 40px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+.img1p1{
+    padding-left: 30px;
+}
+
+
+
+.img2{
+    width: 50%;
+    height: 80vh;
+    background-color: rgb(147, 31, 99);
+    
+}
+ .img2 img{
+    width: 40%;
+    height: 50%;
+    border-radius: 100%;
+    padding-top: 20px;
+} 
+
+
+ .cont2{
+    width: 100%;
+    height: 36vh;
+    background:url("back.jpg")
+}  
+.cont2 span{
+    color: green;
+}
+button{
+    width: 70%;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+button input{
+    width: 90%;
+    height: 100%;
+    background: transparent;
+    
+    border: none;
+    outline: none;
+}
+
+
+.cont2 h2{
+    padding-left: 27px;
+    padding-top: 50px;
+
+}
+
+.cont3{
+    width: 100%;
+    height: 97vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    text-align: center;
+
+    
+}
+.cont3 div:hover{
+    transition: transform 2s;
+
+}
+.box1{
+    background-color: red;
+    width: 22%;
+    height: 35vh;
+    border-radius: 10px;
+    padding-top: 17px;
+    position: relative;
+}
+.box2{
+    background-color: blue;
+    width: 22%;
+    height: 35vh;
+    border-radius: 10px;
+    padding-top: 17px;
+    
+    
+}
+.box3{
+    background-color: yellow;
+    width: 22%;
+    height: 35vh;
+    border-radius: 10px;
+    padding-top: 17px;
+    
+    
+}
+.box4{
+    background-color: pink;
+    width: 22%;
+    height: 35vh;
+    border-radius: 10px;
+    padding-top: 17px;
+    
+    
+}
+.box5{
+    background-color: blueviolet;
+    width: 22%;
+    height: 35vh;
+    border-radius: 10px;
+    padding-top: 17px;
+    
+    
+}
+.box6{
+    background-color: aqua;
+    width: 22%;
+    height: 35vh;
+    border-radius: 10px;
+    padding-top: 17px;
+    
+}
+.box7{
+    background-color: black;
+    width: 22%;
+    height: 35vh;
+    border-radius: 10px;
+    padding-top: 17px;
+    
+}
+.box8{
+    background-color: coral;
+    width: 22%;
+    height: 35vh;
+    border-radius: 10px;
+    padding-top: 17px;
+    
+}
+.cont3 div:hover{
+    background-color: dodgerblue;
+    box-shadow: 0px 0px 7px 10px red;
+    transform: scale(1.1,1.1);
+}
+
+.cont4{
+    width: 100%;
+    height: 20vh;
+    background-color: yellow;
+}
+.cont4 button{
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.cont5{
+    width: 100%;
+    height: 85vh;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.left2{
+    width: 45%;
+    height: 80vh;
+    background-color: red;
+}
+.left2 img{
+    width: 100%;
+    height: 80vh;
+}
+.right2{
+    width: 45%;
+    height: 80vh;
+    background-color:white;
+}
+.right2 p{
+    font-size: 30px;
+    color: red;
+    padding-left: 30px;
+}
+
+
+.right2 h2{
+    font-size: 45px;
+    padding-left: 40px;
+}
+.right2 h3{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.right2 h4{
+    padding: 10px;
+    margin-left: 50px;
+}
+/* .right2h4 fa-regular{
+    margin-left: 20px;
+    color: brown;
+}  */
+.right2 button{
+    width: 170px;
+    height: 60px;
+    font-size: 25px ;
+    margin-left: 50px;
+    background-color: rgb(46, 40, 40);
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: none;
+
+}
+.right2 button:hover{
+    box-shadow: 5px 5px 5px 5px pink;
+}
+.cont6{
+    width: 100%;
+    height: 80vh;
+    background-color: blue;
+}
+.cont6 img{
+    width: 100%;
+    height: 80vh;
+}
+.cont7{
+    width: 100%;
+    height: 95vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+}
+.matter{
+    width: 47%;
+    height: 88vh;
+    background-color: white;
+    margin-top: 13px;
+}
+.matter h1{
+    font-size: 55px;
+    padding-top: 85px;
+    padding-left: 60px;
+}
+.matter h2{
+    font-size: 40px;
+    padding-left: 60px;
+}
+.matter h3{
+    padding-top: 40px;
+    padding-left: 60px;
+}
+.matter h4{
+    padding-left: 60px;
+}
+.app{
+    display: flex;
+    width: 30px;
+    height: 50px;
+    padding-top: 50px;
+    
+    text-align: center;
+    padding-left: 40px;
+    
+}
+.app img{
+    margin-left: 10px;
+    padding-right: 20px;
+}
+.mobile{
+    width: 47%;
+    height: 88vh;
+    background-color:whitesmoke;
+    margin-top: 13px;
+}
+.mobile img{
+    width: 70%;
+    height: 75vh;
+    padding-top: 74px;
+    padding-left: 30px;
+}
+
+.cont8{
+    width: 100%;
+    height: 100vh;
+    background-color:brown;
+    display: flex;
+}
+.red{
+    width: 34%;
+    height: 100vh;
+    background-color: aqua;
+    
+}
+.red h1{
+    margin-top: 200px;
+    padding-left: 20px;
+}
+.red h2{
+    font-size: 33px;
+    padding-left: 20px;
+}
+.red h3{
+    padding-top: 25px;
+    padding-left: 20px
+}
+.red h4{
+    padding-left:20px ;
+}
+.red button{
+    width: 180px;
+    height: 43px;
+    font-size: 25px;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.blue{
+    width: 37%;
+    height: 100vh;
+    background-color: aquamarine;
+    
+}
+
+.one{
+    width: 65%;
+    height: 25vh;
+    background-color:whitesmoke;
+    margin-left: 140px;
+    margin-top: 40px;
+}
+.one h2{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.one h1{
+    padding-top: 7px;
+    padding-left: 9px;
+}
+.one span{
+    color: green;
+    font-size: 40px;
+}
+
+.one img{
+    width: 109px;
+    height: 72px;
+    padding-left: 185px;
+    padding-bottom: 80px;
+}
+.two{
+    width: 65%;
+    height: 25vh;
+    background-color: whitesmoke ;
+    margin-left: 140px;
+    margin-top: 40px;
+
+}
+.two h2{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.two h1{
+    padding-left: 20px;
+}
+.two span{
+    color: green;
+    font-size: 40px;
+}
+.two img{
+    width: 112px;
+    height: 79px;
+    padding-left: 183px;
+}
+.three{
+    width: 65%;
+    height: 25vh;
+    background-color: white;
+    margin-left: 140px;
+    margin-top: 50px;
+}
+.three h2{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.three h1{
+    padding-left: 10px;
+}
+.three span{
+    color: green;
+    font-size: 40px;
+}
+.three img{
+    width: 115px;
+    height: 79px;
+    padding-left: 180px;
+}
+.pink{
+    width: 32%;
+    height: 100vh;
+    background-color: cornflowerblue;
+}
+.four{
+    width: 70%;
+    height: 25vh;
+    background-color:white;
+    margin-left: 20px;
+    margin-top: 130px;
+}
+.four h2{
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.four h1{
+    padding-left: 10px;
+}
+.four span{
+    color: green;
+    font-size: 40px;
+}
+.four img{
+    width: 115px;
+    height: 78px;
+    padding-left: 160px;
+}
+.five{
+    width: 70%;
+    height: 25vh;
+    background-color:white;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.five h2{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.five h1{
+    padding-left: 10px;
+}
+.five span{
+    color: green;
+    font-size: 40px;
+}
+.five img{
+    width: 118px;
+    height: 78px;
+    padding-left: 155px;
+}
+
+.cont9{
+    width: 100%;
+    height: 60vh;
+    background-color: darkcyan;
+    display: flex;
+}
+.matter1{
+    width: 35%;
+    height: 60vh;
+    background-color:white;
+}
+.matter1 h1{
+    padding-top: 80px;
+    padding-left: 20px;
+   
+}
+.matter1 h3{
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size:20px;
+}
+.mat{
+    display: flex;
+    width: 30px;
+    height: 35px;
+    padding-left: 20px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+.mat img{
+    padding-right: 10px;
+    margin-left: 10px;
+}
+.matter2{
+    width: 65%;
+    height: 60vh;
+    background-color: rgb(255, 0, 119);
+    display: flex;
+}
+.company1{
+    width: 32%;
+    height: 52vh;
+    /* background-color: aqua; */
+    margin-top: 30px;
+    padding-left: 30px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.help{
+    width: 30%;
+    height: 40vh;
+    /* background-color: rgb(174, 0, 255); */
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.company2{
+    width: 32%;
+    height: 40vh;
+    /* background-color: rgb(64, 0, 255); */
+    margin-top: 30px;
+}
+.company2 img{
+    width: 22px;
+    height: 23px;
+    margin-right: 10px;
+   
+
+}
+.company2 h4{
+    padding-top: 20px;
+  
+} 
+.company2 h4 a{
+    text-decoration: none;
+}
+
+
+.con1{
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+    display: flex;
+}
+.sandy{
+    width: 30%;
+    height: 50vh;
+    background-color:white;
+}
+.sandy h1{
+    padding-top: 50px;
+    padding-left: 15px;
+}
+.sandy h3{
+    padding-top: 15px;
+    padding-left: 15px;
+
+}
+.sandy div{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.reddy{
+    width: 70%;
+    height: 50vh;
+    background-color:white;
+    display: flex;
+}
+.java{
+    width: 40%;
+    height: 50vh;
+    /* background-color: red; */
+   
+}
+.java h1{
+    padding-top: 50px;
+    padding-left: 75px;
+    
+}
+.java p{
+    padding-left: 40px;
+
+    margin-left: 50px;
+}
+.python{
+    width: 30%;
+    height: 50vh;
+    /* background-color: darkcyan; */
+}
+.python h2{
+    padding-top: 50px;
+    font-size: 25px;
+}
+.css{
+    width: 30%;
+    height: 50vh;
+    /* background-color: gold; */
+}
+.css h1{
+    padding-top: 50px;
+}
+
+
+.hr{
+    color: red;
+}
+
+.con2{
+    width: 100%;
+    height: 30vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.left3{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.right3{
+    padding-top: 30px;
+    padding-right: 80px;
+    justify-content: space-around;
+    align-items: center;
+}
+.fa-brands{
+    padding: 10px;
+}
+.con3{
+    width: 100%;
+    height: 100vh;
+   
+    
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+
+    right: 0px;
+    display: none;
+    
+    
+
+}
+.con31{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(20, 19, 19);
+    opacity: 0.6;
+    
+    /* overflow: auto; */
+
+}
+.con32{
+    width: 50%;
+    height: 100vh;
+    background-color: rgb(247, 0, 255);
+    /* overflow: auto; */
+
+}
+.con32 .fa-solid{
+    font-size: 30px;
+    padding-left: 18px;
+    padding-top: 20px;
+}
+/* .h1{
+    font-size: 60px;
+    color: rgb(59, 19, 203);
+    padding-left: 40px;
+    padding-top: 75px;
+}  */
+.lo{
+    margin-left: 20px;
+    color: blue;
+    padding-top: 30px;
+    font-size: 40px;
+}
+.con32 span{
+    color: green;
+}
+.con32 input{
+    width: 60%;
+    height: 40px;
+    padding-left: 30px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.sathi{
+    display: flex;
+    justify-content: space-between;
+}
+.sathi .sai1 button{
+    width: 150px;
+    height: 35px;
+    background-color: rgba(244, 239, 239, 0.897);
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    
+
+   }
+   .sai1 button:hover{
+    color: white;
+    background-color: red;
+
+   }
+   .sathi .sai2 h3{
+    margin-right: 60px;
+    margin-top: 30px;
+   }
+   .con32 h2 {
+    margin-left: 30px;
+    font-size: 15px;
+    color: aliceblue;
+    margin-top: 30px;
+   }
+   .con32 b{
+    color: black;
+   }
+/* ==================================================== */
+
